@@ -1,16 +1,15 @@
 <template>
-  <Header></Header>
+ <BPHeader />
+ <Login />
 </template>
-
 <script>
-import Header from './components/header.vue'
+  import BPHeader from "@/components/BPHeader.vue";
+  import Login from "@/pages/Login.vue";
 
-export default {
-  name: 'App',
-  components: {
-    Header
-  }
-}
+  export default({
+    components:{
+      BPHeader,
+      Login
+    }
+  })
 </script>
-
-
