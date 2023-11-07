@@ -1,17 +1,15 @@
 <template>
 <v-app>
   <BPHeader />
-  <Login />
+  <router-view />
 </v-app>
 </template>
 <script>
   import BPHeader from "@/components/BPHeader.vue";
-  import Login from "@/pages/Login.vue";
 
   export default({
     components:{
-      BPHeader,
-      Login
+      BPHeader
     }
   })
 </script>
