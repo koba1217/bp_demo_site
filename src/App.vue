@@ -1,6 +1,8 @@
 <template>
- <BPHeader />
- <Login />
+<v-app>
+  <BPHeader />
+  <Login />
+</v-app>
 </template>
 <script>
   import BPHeader from "@/components/BPHeader.vue";
